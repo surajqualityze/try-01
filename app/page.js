@@ -1,7 +1,7 @@
 // import ApiFetch from "@/components/ApiFetch";
 import CardComponents from "@/components/CardComponents";
 import FirstComponents from "@/components/FirstComponents";
-// import { ToastComponents } from "@/components/ui/ToastComponents";
+import { ToastComponents } from "@/components/ui/ToastComponents";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
     <div className="">
       <FirstComponents />
       <CardComponents />
-      {/* <ToastComponents /> */}
+      <ToastComponents />
       {/* <ApiFetch/> */}
     </div>
   );
