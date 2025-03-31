@@ -1,7 +1,8 @@
 import ApiFetch from "@/components/ApiFetch";
-// import CardComponents from "@/components/CardComponents";
-// import FirstComponents from "@/components/FirstComponents";
-// import { ToastComponents } from "@/components/ui/ToastComponents";
+import ServerSideFetch from "@/components/ApiServiceServer";
+import CardComponents from "@/components/CardComponents";
+import FirstComponents from "@/components/FirstComponents";
+import { ToastComponents } from "@/components/ui/ToastComponents";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       {/* <FirstComponents />
       <CardComponents />
       <ToastComponents /> */}
-      <ApiFetch/>
+      {/* <ApiFetch/> */}
+      <ServerSideFetch />
     </div>
   );
 }
